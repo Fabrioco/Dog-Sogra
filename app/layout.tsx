@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import HeaderComponent from "./_components/Header";
-import { CartProvider } from "./context/CartContext";
-import { FavoritesProvider } from "./context/FavoritesContext";
-import { ToastProvider } from "./context/ToastContext";
 
 const InterFont = Inter({
   subsets: ["latin"],
@@ -26,13 +23,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`${InterFont.className} antialiased`}>
         <HeaderComponent />
-        <main className="container mx-auto bg-gray-100">
-          <CartProvider>
-            <FavoritesProvider>
-              <ToastProvider>{children}</ToastProvider>
-            </FavoritesProvider>
-          </CartProvider>
-        </main>
+        <main className="container mx-auto bg-gray-100">{children}</main>
       </body>
     </html>
   );
