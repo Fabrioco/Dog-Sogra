@@ -57,31 +57,6 @@ export const menuData: Menu[] = [
     ],
   },
   {
-    name: "Cachorro Quente Gratinado",
-    items: [
-      {
-        name: "Dog Tradicional Gratinado",
-        price: 32.9,
-        description: "2 salsichas Perdigão, purê de..., queijo gratinado",
-      },
-      {
-        name: "Dog Bacon Gratinado",
-        price: 37.9,
-        description: "2 salsichas Perdigão, bacon..., queijo gratinado",
-      },
-      {
-        name: "Dog Frango Gratinado",
-        price: 37.9,
-        description: "2 salsichas Perdigão, frango..., queijo gratinado",
-      },
-      {
-        name: "Dog Super Gratinado",
-        price: 42.9,
-        description: "2 salsichas Perdigão, frango..., queijo gratinado",
-      },
-    ],
-  },
-  {
     name: "Cachorro Quente na Bandeja",
     items: [
       {
