@@ -7,27 +7,32 @@ export const menuData: Menu[] = [
       {
         name: "Kids",
         price: 14.9,
-        description: "Pão Bambini, 2 salsichas Perdigão, purê de batata...",
+        description:
+          "Pão Bambini, salsicha Perdigão, purê de batata caseiro, batata palha, ketchup e maionese Hellmann's.",
       },
       {
         name: "Tradicional",
         price: 22.9,
-        description: "Pão Bambini, 2 salsichas Perdigão, purê de...",
+        description:
+          "Pão Bambini, salsicha Perdigão, purê de batata caseiro, vinagrete, muçarela ralada, batata palha, milho, ervilha, ketchup, mostarda e maionese Hellmann's.",
       },
       {
         name: "Dog Bacon",
         price: 27.9,
-        description: "Pão Bambini, 2 salsichas Perdigão, bacon frito...",
+        description:
+          "Pão Bambini, salsicha Perdigão, bacon frito, purê de batata caseiro, vinagrete, muçarela ralada, batata palha, milho, ervilha, ketchup, mostarda e maionese Hellmann's.",
       },
       {
         name: "Dog Frango",
         price: 27.9,
-        description: "Pão Bambini, 2 salsichas Perdigão, frango...",
+        description:
+          "Pão Bambini, salsicha Perdigão, frango desfiado temperado, purê de batata caseiro, vinagrete, muçarela ralada, batata palha, milho, ervilha, ketchup, mostarda e maionese Hellmann's.",
       },
       {
         name: "Dog Super",
         price: 32.9,
-        description: "Pão Bambini, salsicha Perdigão, bacon frito, frango...",
+        description:
+          "Pão Bambini, salsicha Perdigão, bacon frito, frango desfiado temperado, Catupiry Original, purê de batata caseiro, vinagrete, muçarela ralada, batata palha, milho, ervilha, ketchup, mostarda e maionese Hellmann's.",
       },
     ],
   },
@@ -37,22 +42,26 @@ export const menuData: Menu[] = [
       {
         name: "Dog Tradicional Prensado",
         price: 25.9,
-        description: "Pão Bambini, salsicha Perdigão, purê de...",
+        description:
+          "Pão Bambini, salsicha Perdigão, purê de batata caseiro, muçarela ralada, vinagrete, ketchup, mostarda e maionese Hellmann's.",
       },
       {
         name: "Dog Frango com Catupiry Prensado",
         price: 29.9,
-        description: "Pão Bambini, salsicha..., frango e Catupiry",
+        description:
+          "Pão Bambini, salsicha Perdigão, frango desfiado temperado, Catupiry Original, purê de batata caseiro, ketchup, mostarda e maionese Hellmann's.",
       },
       {
         name: "Dog Misto Quente Prensado",
         price: 29.9,
-        description: "Pão Bambini, salsicha Perdigão, presunto,...",
+        description:
+          "Pão Bambini, salsicha Perdigão, presunto, muçarela ralada, purê de batata caseiro, ketchup, mostarda e maionese Hellmann's.",
       },
       {
         name: "Dog Bacon Prensado",
         price: 29.9,
-        description: "Pão Bambini, salsicha Perdigão, bacon...",
+        description:
+          "Pão Bambini, salsicha Perdigão, bacon frito, muçarela ralada, purê de batata caseiro, ketchup, mostarda e maionese Hellmann's.",
       },
     ],
   },
@@ -62,27 +71,32 @@ export const menuData: Menu[] = [
       {
         name: "Kids na bandeja",
         price: 22.9,
-        description: "3 salsichas Perdigão, purê de batata...",
+        description:
+          "2 salsichas Perdigão, purê de batata caseiro, batata palha, ketchup e maionese Hellmann's.",
       },
       {
         name: "Tradicional na bandeja",
         price: 27.9,
-        description: "3 salsichas Perdigão, purê de batata...",
+        description:
+          "2 salsichas Perdigão, purê de batata caseiro, vinagrete, muçarela ralada, batata palha, milho, ervilha, ketchup, mostarda e maionese Hellmann's.",
       },
       {
         name: "Dog Bacon na bandeja",
         price: 32.9,
-        description: "3 salsichas Perdigão, bacon frito, purê de...",
+        description:
+          "2 salsichas Perdigão, bacon frito, purê de batata caseiro, vinagrete, muçarela ralada, batata palha, milho, ervilha, ketchup, mostarda e maionese Hellmann's.",
       },
       {
         name: "Dog Frango na bandeja",
         price: 32.9,
-        description: "3 salsichas Perdigão, frango desfiado...",
+        description:
+          "2 salsichas Perdigão, frango desfiado temperado, purê de batata caseiro, vinagrete, muçarela ralada, batata palha, milho, ervilha, ketchup, mostarda e maionese Hellmann's.",
       },
       {
         name: "Dog Super na bandeja",
         price: 37.9,
-        description: "3 salsichas Perdigão, bacon frito, frango...",
+        description:
+          "2 salsichas Perdigão, bacon frito, frango desfiado temperado, Catupiry Original, purê de batata caseiro, vinagrete, muçarela ralada, batata palha, milho, ervilha, ketchup, mostarda e maionese Hellmann's.",
       },
     ],
   },
