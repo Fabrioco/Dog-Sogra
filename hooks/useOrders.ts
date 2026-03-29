@@ -2,7 +2,7 @@
 
 import { supabase } from "@/utils/supabase/client";
 import { useCallback, useEffect, useState } from "react";
-import { Order } from "../types/order.types";
+import { Order } from "@/app/types/order.types";
 import { getLastPhone, normalizePhone } from "../utils/orders/order.utils";
 
 export function useOrders() {
@@ -50,7 +50,7 @@ export function useOrders() {
   }, [telefone]);
 
   useEffect(() => {
-    fetchOrders();
+    (async () => await fetchOrders())(); 
   }, [fetchOrders]);
 
   return {

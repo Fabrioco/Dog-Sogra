@@ -1,7 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { menuData } from "@/app/data/menuData";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { adicionaisDisponiveis } from "@/app/data/adicionalData";
 import { taxasEntrega } from "@/app/data/taxasEntrega";
 import { supabase } from "@/utils/supabase/client";
@@ -91,7 +90,7 @@ export default function CardapioPage() {
     type: "success" | "info" | "error";
   } | null>(null);
   const [search, setSearch] = useState("");
-  const [activeCategory, setActiveCategory] = useState(menuData[0].name);
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
   const carrinhoRef = useRef<HTMLDivElement>(null);
   const categoryRefs = useRef<Record<string, HTMLDivElement | null>>({});
